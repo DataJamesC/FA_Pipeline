@@ -7,6 +7,8 @@ load_dotenv()
 CLIENT_ID = os.getenv("FREEAGENT_CLIENT_ID")
 CLIENT_SECRET = os.getenv("FREEAGENT_CLIENT_SECRET")
 
+x = 'y'
+
 if not CLIENT_ID or not CLIENT_SECRET:
     print("Error: FREEAGENT_CLIENT_ID or FREEAGENT_CLIENT_SECRET missing from .env")
     exit(1)
